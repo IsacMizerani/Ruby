@@ -1,0 +1,24 @@
+print "Qual seu primeiro nome?"
+first_name = gets.chomp
+first_name2 = first_name.capitalize
+first_name.capitalize!
+
+print "Qual seu segundo nome?"
+last_name = gets.chomp
+last_name2 = last_name.capitalize
+last_name.capitalize!
+
+print "De qual cidade você é?"
+city = gets.chomp
+city2 = city.capitalize
+city.capitalize!
+
+print "De qual estado você é?"
+state = gets.chomp
+state2 = state.upcase
+state.upcase!
+
+puts "Seu primeiro nome é #{first_name}!"
+puts "Seu segundo nome é #{last_name}!"
+puts "Você é da cidade de #{city}!"
+puts "Que fica no estado de #{state}!"
